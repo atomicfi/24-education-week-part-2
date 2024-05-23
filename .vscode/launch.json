@@ -9,15 +9,17 @@
       "runtimeVersion": "20",
       "request": "launch",
       "name": "1",
-      "program": "${workspaceFolder}/index.js"
+      "program": "${workspaceFolder}/index.js",
+      "console": "integratedTerminal"
     },
     {
       "type": "node",
-      "runtimeVersion": "20",
       "request": "launch",
+      "runtimeVersion": "20",
       "name": "2",
-      "args": "ask",
-      "program": "${workspaceFolder}/index2.js"
+      "program": "${workspaceFolder}/index.js",
+      "args": ["ask"],
+      "console": "integratedTerminal"
     }
   ]
 }
