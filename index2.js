@@ -23,6 +23,7 @@ program
   .description("Ask user details")
   .action(async () => {
     const answers = await inquirer.prompt(questions);
+
     console.log(`Hello, ${answers.name}!`);
     console.log(`You are ${answers.age} years old.`);
   });

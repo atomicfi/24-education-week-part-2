@@ -17,7 +17,7 @@
       "request": "launch",
       "runtimeVersion": "20",
       "name": "2",
-      "program": "${workspaceFolder}/index.js",
+      "program": "${workspaceFolder}/index2.js",
       "args": ["ask"],
       "console": "integratedTerminal"
     }
